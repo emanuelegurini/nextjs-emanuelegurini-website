@@ -3,7 +3,6 @@ import cn from "classnames";
 
 export default function BlogPostCard({ data }: any) {
   const { title, slug, gradient, time } = data;
-  console.log(data);
 
   return (
     <Link

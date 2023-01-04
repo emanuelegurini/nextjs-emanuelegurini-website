@@ -49,7 +49,10 @@ export default function Container(props: any) {
           content={`https://emanuelegurini.blog${router.asPath}`}
         />
         <link rel="shortcut icon" href="/avatar.jpg" />
-        <link rel="canonical" href={`https://leerob.io${router.asPath}`} />
+        <link
+          rel="canonical"
+          href={`https://emanuelegurini.blog${router.asPath}`}
+        />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Emanuele Gurini" />
         <meta property="og:description" content={meta.description} />

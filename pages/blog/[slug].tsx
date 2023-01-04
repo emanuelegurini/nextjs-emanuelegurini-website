@@ -5,17 +5,8 @@ import matter from "gray-matter";
 import { marked } from "marked";
 
 export default function PostPage({
-  frontmatter: {
-    title,
-    category,
-    cover_image: coverImage,
-    excerpt,
-    time,
-    author,
-    date,
-  },
+  frontmatter: { title, cover_image: coverImage, excerpt, time, author, date },
   content,
-  slug,
 }: any) {
   return (
     <BlogLayout post={{ title, coverImage, excerpt, time, author, date }}>
@@ -31,7 +22,6 @@ export async function getStaticPaths() {
       slug: filename.replace(".md", ""),
     },
   }));
-  console.log(paths);
   return {
     paths,
     fallback: false,

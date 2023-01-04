@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: default link image">
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: delete logs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BlogPostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BlogPostCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/[slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672763613748</updated>
-      <workItem from="1672763614808" duration="40021000" />
+      <workItem from="1672763614808" duration="43335000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -157,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672871117965</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add: default link image">
+      <created>1672871652386</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672871652386</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add: default link image">
+      <created>1672871662629</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672871662629</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +204,7 @@
     <MESSAGE value="Add: single blog page with md articles" />
     <MESSAGE value="Fix: Update favicon" />
     <MESSAGE value="Add: default link image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: default link image" />
+    <MESSAGE value="Fix: delete logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: delete logs" />
   </component>
 </project>

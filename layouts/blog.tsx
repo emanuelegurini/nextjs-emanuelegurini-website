@@ -1,19 +1,16 @@
 import Image from "next/image";
-import { parseISO, format } from "date-fns";
-import { PropsWithChildren, Suspense } from "react";
-
+import { Suspense } from "react";
 import Container from "../components/Container";
+//import { PropsWithChildren, Suspense } from "react";
 //import { Post } from 'lib/types';
 //import { urlForImage } from 'lib/sanity';
 
 export default function BlogLayout({ children, post }: any) {
-  console.log("post data", post);
   return (
     <Container
       title={`${post.title} – Emanuele Gurini`}
       description={post.excerpt}
       image={post.coverImage}
-      //date={new Date(post.date).toISOString()}
       type="article"
     >
       <article className="flex flex-col items-start justify-center w-full max-w-2xl mx-auto mb-16">
@@ -34,7 +31,6 @@ export default function BlogLayout({ children, post }: any) {
 
             <p className="ml-2 text-sm text-gray-700 dark:text-gray-300">
               {"Emanuele Gurini / "}
-              {/*{format(parseISO(post.date), "MMMM dd, yyyy")}*/}
               {post.date}
             </p>
           </div>
@@ -43,11 +39,11 @@ export default function BlogLayout({ children, post }: any) {
           </p>
         </div>
         <Suspense fallback={null}>
-          <div className="w-full mt-4 prose dark:prose-dark max-w-none">
+          <div className="w-full top-0 left-0 mt-4 prose dark:prose-dark max-w-none">
             <img
               className="rounded drop-shadow-2xl"
               src={post.coverImage}
-              alt=""
+              alt={post.slug}
             />
 
             {children}
