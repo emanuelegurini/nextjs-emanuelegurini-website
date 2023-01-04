@@ -4,8 +4,12 @@ import { Suspense } from "react";
 import Container from "../components/Container";
 import VideoCard from "../components/VideoCard";
 import Image from "next/image";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import BlogPostCard from "../components/BlogPostCard";
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ posts }: any) => {
   return (
     <Suspense fallback={null}>
       <Container>
@@ -40,8 +44,31 @@ const Home: NextPage = () => {
           </div>
 
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
-            Featured Posts
+            Posts Section
           </h3>
+          <div className="flex gap-6 flex-col md:flex-row">
+            {posts
+              .filter((_: any, index: any) => {
+                return index < 3;
+              })
+              .map((post: any, index: any) => {
+                const { frontmatter } = post;
+                const gradient = [
+                  "from-[#D8B4FE] to-[#818CF8]",
+                  "from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]",
+                  "from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]",
+                ];
+                return (
+                  <BlogPostCard
+                    key={"post-" + index}
+                    data={{
+                      ...frontmatter,
+                      gradient: gradient[index],
+                    }}
+                  />
+                );
+              })}
+          </div>
           <Link
             href="/blog"
             className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
@@ -116,4 +143,27 @@ const Home: NextPage = () => {
   );
 };
 
+export async function getStaticProps() {
+  const files = fs.readdirSync(path.join("posts"));
+
+  const posts = files.map((filename) => {
+    const slug = filename.replace(".md", "");
+
+    const markdownWithMeta = fs.readFileSync(
+      path.join("posts", filename),
+      "utf-8"
+    );
+    const { data: frontmatter } = matter(markdownWithMeta);
+    return {
+      slug,
+      frontmatter,
+    };
+  });
+
+  return {
+    props: {
+      posts,
+    },
+  };
+}
 export default Home;
