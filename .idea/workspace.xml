@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="">
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: Blog post section, blog post card and first article">
+      <change afterPath="$PROJECT_DIR$/components/BlogPost.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ConsCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ImageWithTheme.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ProsCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Step.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/marked.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/blog/[slug].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/the-dependency-hell-in-nodejs-how-to-manage-dependency-conflicts.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/tailwind-css-specifying-which-files-to-process.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/tailwind-css-specifying-which-files-to-process.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +58,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/posts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,11 +71,90 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672763613748</updated>
-      <workItem from="1672763614808" duration="741000" />
+      <workItem from="1672763614808" duration="35274000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1672764742502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672764742502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add: classnames, yarn and use-delayed-render packages">
+      <created>1672781165833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672781165833</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add: 404 page">
+      <created>1672781548555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672781548555</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add: layout, footer and header with nav (desktop and mobile)">
+      <created>1672781674955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672781674955</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add: about page">
+      <created>1672781692012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672781692012</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add: videocard component">
+      <created>1672781713142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672781713142</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add: index page">
+      <created>1672781727796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672781727796</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add: Blog post section, blog post card and first article">
+      <created>1672790443237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672790443237</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Add: classnames, yarn and use-delayed-render packages" />
+    <MESSAGE value="Add: 404 page" />
+    <MESSAGE value="Add: layout, footer and header with nav (desktop and mobile)" />
+    <MESSAGE value="Add: about page" />
+    <MESSAGE value="Add: videocard component" />
+    <MESSAGE value="Add: index page" />
+    <MESSAGE value="Add: Blog post section, blog post card and first article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: Blog post section, blog post card and first article" />
   </component>
 </project>

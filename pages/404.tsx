@@ -10,10 +10,10 @@ export default function NotFound() {
           404
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-8">
-          Why show a generic 404 when I can make it sound mysterious? It seems
+          {`Why show a generic 404 when I can make it sound mysterious? It seems
           you've found something that used to exist, or you spelled something
           wrong. I'm guessing you spelled something wrong. Can you double check
-          that URL?
+          that URL?`}
         </p>
         <Link
           href="/"

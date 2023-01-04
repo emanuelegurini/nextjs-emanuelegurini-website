@@ -52,7 +52,7 @@ const Home: NextPage = ({ posts }: any) => {
                 return index < 3;
               })
               .map((post: any, index: any) => {
-                const { frontmatter } = post;
+                const { frontmatter, slug } = post;
                 const gradient = [
                   "from-[#D8B4FE] to-[#818CF8]",
                   "from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]",
@@ -63,6 +63,7 @@ const Home: NextPage = ({ posts }: any) => {
                     key={"post-" + index}
                     data={{
                       ...frontmatter,
+                      slug,
                       gradient: gradient[index],
                     }}
                   />
@@ -117,7 +118,7 @@ const Home: NextPage = ({ posts }: any) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.youtube.com/playlist?list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1"
+            href="https://www.youtube.com/@EmanueleGurini"
             className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
           >
             Watch all videos

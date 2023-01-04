@@ -1,9 +1,11 @@
 ---
 title: 'Tailwind CSS – Specifying which files to process'
 author: 'Emanuele Gurini'
-cover_image: ''
+cover_image: '/img/posts/tailwind-css-specifying-which-files-to-process-min.jpg'
 category: 'tailwind css'
-time: '1.53'
+time: '1:53'
+excerpt: 'Tailwind CSS must specify which files to process in a projects tailwind.config.ts file. How can we do that in a smart way?'
+date: Jenuary 04, 2023
 ---
 
 [Tailwind CSS - Specifying which files to process - Video](https://youtu.be/Jj20Bxpdnls "Tailwind CSS - Specifying which files to process
