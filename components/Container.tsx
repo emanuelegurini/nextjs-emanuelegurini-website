@@ -32,7 +32,7 @@ export default function Container(props: any) {
   const meta = {
     title: "Emanuele Gurini – Developer, writer, creator.",
     description: `Front-end and software developer, Creator`,
-    image: "https://emanuelegurini.blog/static//cover-emanuele-gurini-min.jpg",
+    image: "https://emanuelegurini.blog/static/cover-emanuele-gurini-min.jpg",
     type: "website",
     ...customMeta,
   };
