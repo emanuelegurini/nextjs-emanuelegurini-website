@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: Blog post section, blog post card and first article">
-      <change afterPath="$PROJECT_DIR$/components/BlogPost.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ConsCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ImageWithTheme.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ProsCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Step.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/marked.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog/[slug].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/the-dependency-hell-in-nodejs-how-to-manage-dependency-conflicts.md" afterDir="false" />
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: Update favicon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/tailwind-css-specifying-which-files-to-process.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/tailwind-css-specifying-which-files-to-process.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672763613748</updated>
-      <workItem from="1672763614808" duration="35274000" />
+      <workItem from="1672763614808" duration="37988000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -129,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672790443237</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add: single blog page with md articles">
+      <created>1672849872010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672849872010</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add: single blog page with md articles">
+      <created>1672850154281</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672850154281</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +157,8 @@
     <MESSAGE value="Add: videocard component" />
     <MESSAGE value="Add: index page" />
     <MESSAGE value="Add: Blog post section, blog post card and first article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Blog post section, blog post card and first article" />
+    <MESSAGE value="Add: single blog page with md articles" />
+    <MESSAGE value="Fix: Update favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Update favicon" />
   </component>
 </project>
