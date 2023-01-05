@@ -110,12 +110,12 @@ const Home: NextPage = ({ posts }: any) => {
             length="02:46"
             title="Tailwind CSS - Specifying which files to process"
           />
-          <VideoCard
+          {/*          <VideoCard
             index="02"
             href="https://www.youtube.com/watch?v=AGl52moyISU&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=3"
             length="54:22"
             title="The Dependency Hell in Node.js: How to Manage Dependency Conflicts"
-          />
+          />*/}
 
           <a
             target="_blank"
