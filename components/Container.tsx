@@ -26,22 +26,12 @@ export default function Container(props: any) {
         <meta property="og:site_name" content="Emanuele Gurini" />
         <meta property="og:description" content={description} />
         <meta property="og:title" content={title} />
-        <meta
-          property="og:image"
-          content={
-            "https://www.emanuelegurini.blog/static/images/cover-emanuele-gurini-min.jpg"
-          }
-        />
+        <meta property="og:image" content={image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@EmanueleGurini" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta
-          name="twitter:image"
-          content={
-            "https://www.emanuelegurini.blog/static/images/cover-emanuele-gurini-min.jpg"
-          }
-        />
+        <meta name="twitter:image" content={image} />
         {date && <meta property="article:published_time" content={date} />}
       </Head>
       <Header />

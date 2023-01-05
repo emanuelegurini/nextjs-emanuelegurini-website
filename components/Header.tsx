@@ -1,7 +1,7 @@
-import MobileMenu from "./MobileMenu";
-import { useRouter } from "next/router";
 import NextLink from "next/link";
+import { useRouter } from "next/router";
 import cn from "classnames";
+import MobileMenu from "./MobileMenu";
 
 function NavItem({ href, text }: any) {
   const router = useRouter();
