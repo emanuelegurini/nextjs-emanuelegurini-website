@@ -42,6 +42,15 @@ export default function Container(props: any) {
         {children}
         <Footer />
       </main>
+      <div className="w-full text-center bg-violet-200 py-4 m-0">
+        <p>
+          I want to thank{" "}
+          <a className="font-bold" href="https://leerob.io/">
+            Lee Robinson
+          </a>{" "}
+          for his amazing theme that I stole
+        </p>
+      </div>
     </div>
   );
 }
