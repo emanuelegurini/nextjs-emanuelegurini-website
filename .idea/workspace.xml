@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: test-container">
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: delete video">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672763613748</updated>
-      <workItem from="1672763614808" duration="46344000" />
+      <workItem from="1672763614808" duration="46934000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672877487207</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fix: delete video">
+      <created>1672877949906</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1672877949906</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +237,7 @@
     <MESSAGE value="Add: default link image" />
     <MESSAGE value="Fix: delete logs" />
     <MESSAGE value="Fix: test-container" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: test-container" />
+    <MESSAGE value="Fix: delete video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: delete video" />
   </component>
 </project>
