@@ -42,7 +42,7 @@ export default function Container(props: any) {
         {children}
         <Footer />
       </main>
-      <div className="w-full text-center bg-violet-200 py-4 m-0">
+      <div className="w-full text-center bg-violet-200 p-4 m-0">
         <p>
           I want to thank{" "}
           <a className="font-bold" href="https://leerob.io/">

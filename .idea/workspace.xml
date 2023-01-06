@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: thanksgiving to leerob.io">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -51,11 +51,18 @@ export default function BlogLayout({ children, post }: any) {
             {children}
           </div>
           <div className="mt-8"></div>
-          <div className="text-sm text-gray-700 dark:text-gray-300">
+          <div className="text-sm text-gray-400 dark:text-gray-300 bg">
+            In this blog, you will find articles that have been written with the
+            help of ChatGPT. If you notice any information that has been sourced
+            from other sources, please let me know. I will verify the source and
+            make sure to properly cite it in the article.
+            <br />
+            <br />
             <a
               href="https://github.com/EmanueleGurini/nextjs-emanuelegurini-website/issues"
               target="_blank"
               rel="noopener noreferrer"
+              className="font-bold text-gray-700"
             >
               {"Suggest Change"}
             </a>
