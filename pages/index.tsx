@@ -32,8 +32,7 @@ const Home: NextPage = ({ posts }: any) => {
               <p className="text-gray-600 dark:text-gray-400 mb-16">
                 Supporting developers with the tools and knowledge to build fast
                 and reliable web applications through a collaborative and
-                supportive learning experience. Featuring courses on web
-                development, serverless design, and React/Next.js
+                supportive learning experience.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">

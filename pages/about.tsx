@@ -3,7 +3,7 @@ import Container from "../components/Container";
 
 export default function About() {
   return (
-    <Container title="About – Emanuele Gurini">
+    <Container title="About · Emanuele Gurini - Software Developer, Writer and Creator">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About Me
@@ -12,29 +12,23 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              Twitter:{" "}
-              <a href="https://twitter.com/EmanueleGurini">@EmanueleGurini</a>
+              <a href="https://twitter.com/EmanueleGurini">Twitter</a>
             </li>
             <li>
-              GitHub:{" "}
-              <a href="https://github.com/EmanueleGurini">@EmanueleGurini</a>
+              <a href="https://github.com/EmanueleGurini">Github</a>
             </li>
             <li>
-              Website:{" "}
-              <Link href="https://emanuelegurini.blog">
-                https://emanuelegurini.blog
-              </Link>
+              <Link href="https://emanuelegurini.blog">Website</Link>
             </li>
             <li>
-              LinkedIn:{" "}
-              <a href="https://www.linkedin.com/in/emanuelegurini/">
-                https://www.linkedin.com/in/emanuelegurini
-              </a>
+              <a href="https://www.linkedin.com/in/emanuelegurini/">LinkedIn</a>
             </li>
           </ul>
           <h2>Bio</h2>
           <h3>Job Title</h3>
-          <p>Emanuele Gurini, Software Developer at Flowing / Claranet</p>
+          <p>
+            Emanuele Gurini, Software Developer at Flowing, a Claranet Company
+          </p>
           <h3>Who am I?</h3>
           <p>
             {`I'm studying Computer Science in Camerino because there isn't enough
