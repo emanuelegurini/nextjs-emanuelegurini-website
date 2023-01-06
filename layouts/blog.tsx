@@ -40,11 +40,13 @@ export default function BlogLayout({ children, post }: any) {
         </div>
         <Suspense fallback={null}>
           <div className="w-full top-0 left-0 mt-4 prose dark:prose-dark max-w-none">
-            <img
-              className="rounded drop-shadow-2xl"
-              src={post.coverImage}
-              alt={post.slug}
-            />
+            <div className="lg:w-full lg:h-[378px]">
+              <img
+                className="rounded drop-shadow-2xl w-full h-[auto]"
+                src={post.coverImage}
+                alt={post.slug}
+              />
+            </div>
 
             {children}
           </div>
