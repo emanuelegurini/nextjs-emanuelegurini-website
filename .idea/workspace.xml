@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: SEO">
-      <change afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/the-dependency-hell-in-nodejs-how-to-manage-dependency-conflicts.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/the-dependency-hell-in-nodejs-how-to-manage-dependency-conflicts.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +59,7 @@
       <updated>1672763613748</updated>
       <workItem from="1672763614808" duration="49081000" />
       <workItem from="1672961031775" duration="1343000" />
+      <workItem from="1673065648702" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672880667484</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix: SEO">
+      <created>1673050443272</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673050443272</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

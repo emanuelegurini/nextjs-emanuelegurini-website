@@ -19,9 +19,6 @@ Imagine we have a project that uses the "Express" package to handle HTTP request
 
 If the project specifies that it must use version 4.17.20 of "Lodash" and "Express" depends on version 4.17.11 of "Lodash", the project might end up with two versions of "Lodash" installed: version 4.17.20 required by the project and version 4.17.11 required by "Express". This could cause conflicts and make it difficult or impossible to install the dependencies.
 
-In questo caso, il progetto "my-project" dipende da tre pacchetti: "package-a", "package-b" e "package-c". "Package-a" e "package-b" condividono una dipendenza comune dal pacchetto "lodash", ma utilizzano versioni diverse di questo pacchetto: "package-a" utilizza la versione 4.17.20 di "lodash", mentre "package-b" utilizza la versione 5.0.0. "Package-c", a sua volta, dipende sia da "package-a" che da "package-b", quindi entrambe le versioni di "lodash" vengono installate nella cartella "node_modules" del progetto.
-
-Questa è in invece la rappresentazione della struttura della cartella "node_modules" del progetto “my-project”:
 ### How to manage dependencies in Node.js and resolve conflicts
 To solve this problem, it's important to use the "package.json" file to specify exactly which versions of packages the project should use. This way, when you run the "npm install" command, npm will only download the specified versions and create the dependency tree to avoid conflicts. The dependency tree shows all of the project's dependencies and the dependencies that they depend on.
 
