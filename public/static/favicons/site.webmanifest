@@ -1,0 +1,12 @@
+{
+    "name": "Emanuele Gurini",
+    "short_name": "emanuelegurini.blog",
+    "description": "Software Developer, curious mind, and creator.",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    "start_url": "../../index.html"
+}

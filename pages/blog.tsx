@@ -15,7 +15,7 @@ export default function Blog({ posts }: any) {
 
   return (
     <Container
-      title="Blog · Emanuele Gurini - Software Developer, Writer and Creator"
+      title="Blog · Emanuele Gurini - Software Developer, curious mind, and creator"
       description="Thoughts on the software industry, programming, tech, videography, music, and my personal life."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
