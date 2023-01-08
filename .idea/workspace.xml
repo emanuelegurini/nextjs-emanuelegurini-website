@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: Favicos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: images for favicons">
       <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <updated>1672763613748</updated>
       <workItem from="1672763614808" duration="49081000" />
       <workItem from="1672961031775" duration="1343000" />
-      <workItem from="1673065648702" duration="3673000" />
+      <workItem from="1673065648702" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -257,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673200292133</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fix: fix cover">
+      <created>1673200912738</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673200912738</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add: images for favicons">
+      <created>1673200944881</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673200944881</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +308,8 @@
     <MESSAGE value="Fix: SEO" />
     <MESSAGE value="Fix: dependency hell article" />
     <MESSAGE value="Fix: Favicos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Favicos" />
+    <MESSAGE value="Fix: fix cover" />
+    <MESSAGE value="Add: images for favicons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: images for favicons" />
   </component>
 </project>
