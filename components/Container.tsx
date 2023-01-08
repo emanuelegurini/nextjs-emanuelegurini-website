@@ -31,7 +31,10 @@ export default function Container(props: any) {
         <meta name="twitter:site" content="@EmanueleGurini" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        <meta
+          name="twitter:image"
+          content={`https://www.emanuelegurini.blog/${image}`}
+        />
         {date && <meta property="article:published_time" content={date} />}
       </Head>
       <Header />
