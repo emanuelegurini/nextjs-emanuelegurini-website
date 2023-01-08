@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: SEO">
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Fix: dependency hell article">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/the-dependency-hell-in-nodejs-how-to-manage-dependency-conflicts.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/the-dependency-hell-in-nodejs-how-to-manage-dependency-conflicts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/favicons/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/favicons/site.webmanifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +28,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/emanuelegurini/Documents/1-Projects/Developer/nextjs-emanuelegurini-website/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/emanuelegurini/Documents/1-Projects/Developer/nextjs-emanuelegurini-website/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/static/images" />
@@ -59,7 +62,7 @@
       <updated>1672763613748</updated>
       <workItem from="1672763614808" duration="49081000" />
       <workItem from="1672961031775" duration="1343000" />
-      <workItem from="1673065648702" duration="23000" />
+      <workItem from="1673065648702" duration="3049000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -243,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673050443272</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Fix: dependency hell article">
+      <created>1673065708230</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673065708230</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +289,7 @@
     <MESSAGE value="test: img test" />
     <MESSAGE value="Add: thanksgiving to leerob.io" />
     <MESSAGE value="Fix: SEO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: SEO" />
+    <MESSAGE value="Fix: dependency hell article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: dependency hell article" />
   </component>
 </project>

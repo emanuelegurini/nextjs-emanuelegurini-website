@@ -4,9 +4,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/*<link href="/static/favicons/favicon.ico" rel="shortcut icon" />*/}
+        <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
         <link href="/static/favicons/site.webmanifest" rel="manifest" />
-        {/*        <link
+        <link
           href="/static/favicons/apple-touch-icon.png"
           rel="apple-touch-icon"
           sizes="180x180"
@@ -27,7 +27,7 @@ export default function Document() {
           color="#4a9885"
           href="/static/favicons/safari-pinned-tab.svg"
           rel="mask-icon"
-        />*/}
+        />
         <meta content="#ffffff" name="theme-color" />
         <meta content="#ffffff" name="msapplication-TileColor" />
         <meta
