@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: new imf - Exception handling in Javascript">
+    <list default="true" id="24e85950-ad79-4012-9a28-b0e9320e66d4" name="Changes" comment="Add: new img - Exception handling in Javascript">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/exception-handling-in-javaScript-how-to-handle-errors-effectively.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/exception-handling-in-javaScript-how-to-handle-errors-effectively.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/posts/exception-handling-in-javaScript.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/posts/exception-handling-in-javascript.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,8 @@
       <workItem from="1673065648702" duration="5187000" />
       <workItem from="1673216329304" duration="189000" />
       <workItem from="1673478837023" duration="744000" />
-      <workItem from="1673532978390" duration="5264000" />
+      <workItem from="1673532978390" duration="5308000" />
+      <workItem from="1673538936487" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1672764742502</created>
@@ -310,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673534778344</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add: new img - Exception handling in Javascript">
+      <created>1673538694765</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1673538694765</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add: new img - Exception handling in Javascript">
+      <created>1673538700566</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1673538700566</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +342,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Commit" />
     <MESSAGE value="Add: classnames, yarn and use-delayed-render packages" />
     <MESSAGE value="Add: 404 page" />
     <MESSAGE value="Add: layout, footer and header with nav (desktop and mobile)" />
@@ -353,6 +366,7 @@
     <MESSAGE value="Add: fix cover image on twitter" />
     <MESSAGE value="Add: new article - Exception handling in Javascript" />
     <MESSAGE value="Add: new imf - Exception handling in Javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: new imf - Exception handling in Javascript" />
+    <MESSAGE value="Add: new img - Exception handling in Javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: new img - Exception handling in Javascript" />
   </component>
 </project>

@@ -2,8 +2,8 @@
 title: 'Exception handling in JavaScript: how to handle errors effectively'
 author: 'Emanuele Gurini'
 cover_image: '/img/posts/exception-handling-in-javascript-min.jpg'
-category: 'javascript exception try-catch'
-time: '1:53'
+category: 'javascript exception try-catch error'
+time: '6:00'
 excerpt: 'Knowing exceptions, call stack and the use of the try-catch construct to handle errors in a self-sufficient and defined way'
 date: Jenuary 12, 2023
 ---
@@ -37,7 +37,7 @@ try {
   let result = divide(10, 0);
   console.log(result);
 } catch (error) {
-  console.log("Errore: non è possibile dividere per zero.");
+  console.log("Error: it is not possible to divide by 0.");
 }
 ```
 
@@ -52,12 +52,12 @@ Defined error handling uses an if statement within a try block to describe what 
 try {
   checkNumber(0);
 } catch (error) {
-  console.log(error); // "Errore: il numero deve essere maggiore di zero."
+  console.log(error); // "Error: the number should be bigger than zero."
 }
 
 function checkNumber(num) {
   if (num <= 0) {
-    throw new Error("Errore: il numero deve essere maggiore di zero.");
+    throw new Error("Error: the number should be bigger than zero.");
   }
 }
 ```
@@ -70,11 +70,11 @@ The finally block is used to perform cleanup or closing operations, regardless o
 
 ```javascript
 try {
-  // esegue operazione sul database
+  // executes operation on the db
 } catch (error) {
   console.log(error);
 } finally {
-  // chiude connessione al database
+  // close the connection with the db 
 }
 ```
 
