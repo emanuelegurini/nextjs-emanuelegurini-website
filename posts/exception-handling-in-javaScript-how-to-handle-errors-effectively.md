@@ -1,7 +1,7 @@
 ---
 title: 'Exception handling in JavaScript: how to handle errors effectively'
 author: 'Emanuele Gurini'
-cover_image: '/img/posts/tailwind-css-specifying-which-files-to-process-min.jpg'
+cover_image: '/img/posts/exception-handling-in-javascript-min.jpg'
 category: 'javascript exception try-catch'
 time: '1:53'
 excerpt: 'Knowing exceptions, call stack and the use of the try-catch construct to handle errors in a self-sufficient and defined way'
@@ -23,7 +23,7 @@ Exceptions in JavaScript are handled using the try-catch construct. The try bloc
 It is very important to distinguish between "self-handling errors" and "defined error handling", two terms used to describe different ways of handling errors through exceptions in JavaScript.
 
 
-![Exception handling in Javascript] (https://www.emanuelegurini.blog/img/posts/exception-handling-in-javaScript.png)
+![Exception handling in Javascript](https://www.emanuelegurini.blog/img/posts/exception-handling-in-javascript.png)
 
 In the picture it is possible to see how exception handling allows to interrupt the execution of the code in progress, signaling the problem through the use of an exception. This is propagated along the chain of function calls, until it is handled by a try-catch block specified by the programmer. If not handled, the exception causes the interruption of the program.
 
