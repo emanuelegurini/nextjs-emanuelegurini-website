@@ -1,10 +1,10 @@
 ---
-title: 'Exception handling in JavaScript: how to handle errors effectively'
-author: 'Emanuele Gurini'
-cover_image: '/img/posts/exception-handling-in-javascript-min.jpg'
-category: 'javascript exception try-catch error'
-time: '6:00'
-excerpt: 'Knowing exceptions, call stack and the use of the try-catch construct to handle errors in a self-sufficient and defined way'
+title: "Exception handling in JavaScript: how to handle errors effectively"
+author: "Emanuele Gurini"
+cover_image: "/img/posts/exception-handling-in-javascript-min.jpg"
+category: "javascript exception try-catch error"
+time: "6:00"
+excerpt: "Knowing exceptions, call stack and the use of the try-catch construct to handle errors in a self-sufficient and defined way"
 date: Jenuary 12, 2023
 ---
 
@@ -22,11 +22,9 @@ Exceptions in JavaScript are handled using the try-catch construct. The try bloc
 
 It is very important to distinguish between "self-handling errors" and "defined error handling", two terms used to describe different ways of handling errors through exceptions in JavaScript.
 
-
-![Exception handling in Javascript](https://www.emanuelegurini.blog/img/posts/exception-handling-in-javascript.png)
+![Exception handling in Javascript](https://www.emanuelegurini.com/img/posts/exception-handling-in-javascript.png)
 
 In the picture it is possible to see how exception handling allows to interrupt the execution of the code in progress, signaling the problem through the use of an exception. This is propagated along the chain of function calls, until it is handled by a try-catch block specified by the programmer. If not handled, the exception causes the interruption of the program.
-
 
 ## Self-handling errors
 
@@ -42,7 +40,6 @@ try {
 ```
 
 In this example, the divide() function is called within the try block. Since you are trying to divide a number by zero, the system generates an error and the catch block catches the standard error message "division by zero" and prints it on the screen. In this way, developers can handle errors in an organized way and maintain control of the flow of the program.
-
 
 ## Defined error handling
 
@@ -74,7 +71,7 @@ try {
 } catch (error) {
   console.log(error);
 } finally {
-  // close the connection with the db 
+  // close the connection with the db
 }
 ```
 
@@ -82,51 +79,43 @@ In this way, you can be sure that the database connection is closed or that the 
 
 Here is an example of a react hook implemented using the try/catch construct. In the example, you can see the construct used to handle potential errors during a generic fetch.
 
-
 ```javascript
-import {useEffect, useState} from 'react';
-
+import { useEffect, useState } from "react";
 
 export function useFetch(urlToFetch) {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
+  const fetchData = async () => {
+    setData(null);
+    setError(null);
+    setLoading(true);
 
-   const [data, setData] = useState(null);
-   const [error, setError] = useState(null);
-   const [loading, setLoading] = useState(false);
+    try {
+      const data = await fetch(urlToFetch).then((r) => r.json());
+      setData(data);
+    } catch (error) {
+      setError(error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
+    fetchData();
+  }, []);
 
-   const fetchData = async () => {
-       setData(null);
-       setError(null);
-       setLoading(true);
-
-
-       try {
-           const data = await fetch(urlToFetch).then(r => r.json());
-           setData(data);
-       } catch (error) {
-           setError(error)
-       } finally {
-           setLoading(false)
-       }
-   }
-
-
-   useEffect(() => {
-       fetchData();
-   }, []);
-
-
-   return {
-       data,
-       error,
-       loading,
-       refetch: fetchData
-   };
+  return {
+    data,
+    error,
+    loading,
+    refetch: fetchData,
+  };
 }
 ```
-Source code by Luca Pagliaro from his own [Github](https://github.com/ilasw/edgemony-react-course/blob/main/23-01-11-custom-hooks/src/fetch/hooks/use-fetch.js)
 
+Source code by Luca Pagliaro from his own [Github](https://github.com/ilasw/edgemony-react-course/blob/main/23-01-11-custom-hooks/src/fetch/hooks/use-fetch.js)
 
 ## Conclusion
 

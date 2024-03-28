@@ -18,7 +18,7 @@ export default function About() {
               <a href="https://github.com/EmanueleGurini">Github</a>
             </li>
             <li>
-              <Link href="https://emanuelegurini.blog">Website</Link>
+              <Link href="https://emanuelegurini.com">Website</Link>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/emanuelegurini/">LinkedIn</a>

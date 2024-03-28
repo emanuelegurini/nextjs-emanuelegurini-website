@@ -14,7 +14,7 @@ const Home: NextPage = ({ posts }: any) => {
     <Suspense fallback={null}>
       <Container
       /*        image={
-          "https://www.emanuelegurini.blog/static/images/cover-emanuele-gurini-min.jpg"
+          "https://www.emanuelegurini.com/static/images/cover-emanuele-gurini-min.jpg"
         }*/
       >
         <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">

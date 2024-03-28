@@ -15,12 +15,12 @@ export default function Container(props: any) {
         <meta content={description} name="description" />
         <meta
           property="og:url"
-          content={`https://emanuelegurini.blog${router.asPath}`}
+          content={`https://emanuelegurini.com${router.asPath}`}
         />
         <link rel="shortcut icon" href="/avatar.jpg" />
         <link
           rel="canonical"
-          href={`https://emanuelegurini.blog${router.asPath}`}
+          href={`https://emanuelegurini.com${router.asPath}`}
         />
         <meta property="og:type" content={type} />
         <meta property="og:site_name" content="Emanuele Gurini" />
@@ -28,7 +28,7 @@ export default function Container(props: any) {
         <meta property="og:title" content={title} />
         <meta
           property="og:image"
-          content={`https://www.emanuelegurini.blog${image}`}
+          content={`https://www.emanuelegurini.com${image}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@EmanueleGurini" />
@@ -36,7 +36,7 @@ export default function Container(props: any) {
         <meta name="twitter:description" content={description} />
         <meta
           name="twitter:image"
-          content={`https://www.emanuelegurini.blog${image}`}
+          content={`https://www.emanuelegurini.com${image}`}
         />
         {date && <meta property="article:published_time" content={date} />}
       </Head>
@@ -65,6 +65,6 @@ Container.defaultProps = {
   title: "Emanuele Gurini – Software Developer, curious mind, and creator",
   description: `Emanuele Gurini is a software developer working for Flowing, a Claranet company. He uses his blog to document and share information about computer science that interests him and that he encounters on a daily basis.`,
   image:
-    "https://www.emanuelegurini.blog/static/images/cover-emanuele-gurini-min.jpg",
+    "https://www.emanuelegurini.com/static/images/cover-emanuele-gurini-min.jpg",
   type: "website",
 };
