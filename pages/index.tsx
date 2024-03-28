@@ -111,24 +111,29 @@ const Home: NextPage = ({ posts }: any) => {
           </p>
           <VideoCard
             index="01"
-            href="https://www.youtube.com/watch?v=Jj20Bxpdnls&t=101s"
-            length="02:46"
-            title="Tailwind CSS - Specifying which files to process"
+            href="https://www.youtube.com/watch?v=ggvowBqTtD8"
+            length="01:19:07"
+            title="Lavorare all'estero - Caffè sviluppo - Luciano Mammino"
           />
-          {/*          <VideoCard
+          <VideoCard
             index="02"
-            href="https://www.youtube.com/watch?v=AGl52moyISU&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=3"
-            length="54:22"
-            title="The Dependency Hell in Node.js: How to Manage Dependency Conflicts"
-          />*/}
-
+            href="https://www.youtube.com/watch?v=7WEleDzP0Lc"
+            length="01:28:23"
+            title="La leadership è importante? - Caffé sviluppo - Luca Rossi"
+          />
+          <VideoCard
+            index="03"
+            href="https://www.youtube.com/watch?v=w3fjnN4e1Mo"
+            length="01:32:10"
+            title="DE come DEsign e DEvelpment? - Caffé sviluppo - Laura Paveglio"
+          />
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.youtube.com/@EmanueleGurini"
             className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
           >
-            Watch all videos
+            Check my YouTube channel
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
