@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "classnames": "^2.3.2",
     "date-fns": "^2.29.3",
     "depcheck": "^1.4.3",

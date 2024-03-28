@@ -26,6 +26,8 @@ const Home: NextPage = ({ posts }: any) => {
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
                 Software Analyst at{" "}
                 <span className="font-semibold">Astrorei.</span>
+                <br />
+                AWS Support Engineer.
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
                 <blockquote style={{ fontStyle: "italic", margin: "20px" }}>
@@ -103,12 +105,12 @@ const Home: NextPage = ({ posts }: any) => {
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
             Video Section
           </h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">
+          {/*           <p className="text-gray-600 dark:text-gray-400 mb-4">
             This section provides in-depth videos on front-end and low level
             programming. Dive into the technical details of front-end
             development, including HTML, CSS, and JavaScript, as well as modern
             frameworks and libraries
-          </p>
+          </p> */}
           <VideoCard
             index="01"
             href="https://www.youtube.com/watch?v=ggvowBqTtD8"

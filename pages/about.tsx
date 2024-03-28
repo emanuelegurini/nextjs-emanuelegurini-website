@@ -53,13 +53,23 @@ export default function About() {
             graduated from Macerata Accademy of fine arts with a B.A. in Graphic
             Design.
           </p>
-          <h3>Caffè Sviluppo</h3>
+          <h3>
+            <Link
+              href={
+                "https://open.spotify.com/show/4CiXBWqLVnfrdNbXAUbKsO?si=b97fc8e51af24cf1&nd=1&dlsi=6865151ace3a4052"
+              }
+            ></Link>
+            Caffè Sviluppo
+          </h3>
           <p>
-            {`I am the co-host of the 'Caffè Sviluppo' podcast, where we discuss
-            software development and technology with industry experts. I want to
-            thank my friend Christian Varisco for giving me the opportunity to
-            join him on this adventure. Christian, if you're reading this, you
-            know I love you, bro.`}
+            I am the co-host of the <b>Caffè Sviluppo</b> podcast, where we
+            discuss software development and technology with industry experts. I
+            want to thank my friend{" "}
+            <Link href={"https://www.christianvarisco.com/"} target="_blank">
+              Christian Varisco
+            </Link>{" "}
+            for giving me the opportunity to join him on this adventure.
+            Christian, if you are reading this, you know I love you, bro.
           </p>
         </div>
       </div>
