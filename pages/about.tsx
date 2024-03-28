@@ -3,7 +3,7 @@ import Container from "../components/Container";
 
 export default function About() {
   return (
-    <Container title="About · Emanuele Gurini - Software Developer, curious mind, and creator">
+    <Container title="About · Emanuele Gurini - Software Developer, Analyst, curious mind, and creator">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About Me
@@ -12,7 +12,7 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              <a href="https://twitter.com/EmanueleGurini">Twitter</a>
+              <a href="https://x.com/EmanueleGurini">Twitter</a>
             </li>
             <li>
               <a href="https://github.com/EmanueleGurini">Github</a>
@@ -26,9 +26,7 @@ export default function About() {
           </ul>
           <h2>Bio</h2>
           <h3>Job Title</h3>
-          <p>
-            Emanuele Gurini, Software Developer at Flowing, a Claranet Company
-          </p>
+          <p>Emanuele Gurini, Software Analyst at Astrorei.</p>
           <h3>Who am I?</h3>
           <p>
             {`I'm studying Computer Science in Camerino because there isn't enough

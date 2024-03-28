@@ -62,8 +62,9 @@ export default function Container(props: any) {
 }
 
 Container.defaultProps = {
-  title: "Emanuele Gurini – Software Developer, curious mind, and creator",
-  description: `Emanuele Gurini is a software developer working for Flowing, a Claranet company. He uses his blog to document and share information about computer science that interests him and that he encounters on a daily basis.`,
+  title:
+    "Emanuele Gurini – Software Developer, Analyst, curious mind, and creator",
+  description: `Emanuele Gurini is a Software Analyst working for Astrorei. He uses his blog to document and share information about computer science that interests him and that he encounters on a daily basis.`,
   image:
     "https://www.emanuelegurini.com/static/images/cover-emanuele-gurini-min.jpg",
   type: "website",

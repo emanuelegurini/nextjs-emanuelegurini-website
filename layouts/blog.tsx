@@ -8,7 +8,7 @@ import Container from "../components/Container";
 export default function BlogLayout({ children, post }: any) {
   return (
     <Container
-      title={`${post.title} · Emanuele Gurini - Software Developer, curious mind, and creator`}
+      title={`${post.title} · Emanuele Gurini - Software Developer, Analyst, curious mind, and creator`}
       description={post.excerpt}
       image={post.coverImage}
       type="article"

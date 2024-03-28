@@ -24,15 +24,17 @@ const Home: NextPage = ({ posts }: any) => {
                 Emanuele Gurini
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                Software Developer at{" "}
-                <span className="font-semibold">
-                  Flowing, a Claranet Company
-                </span>
+                Software Analyst at{" "}
+                <span className="font-semibold">Astrorei.</span>
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                Supporting developers with the tools and knowledge to build fast
-                and reliable web applications through a collaborative and
-                supportive learning experience.
+                <blockquote style={{ fontStyle: "italic", margin: "20px" }}>
+                  &ldquo;I would rather be remembered as a bad artist than a
+                  good programmer.&rdquo;
+                  <footer style={{ textAlign: "right", marginTop: "10px" }}>
+                    — Salvatore Sanfilippo
+                  </footer>
+                </blockquote>
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
